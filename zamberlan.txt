@@ -1,0 +1,8 @@
+Prueba de edicion de archivo:
+1
+2
+3
+a
+b
+c
+Fin de edicion de archivo.
