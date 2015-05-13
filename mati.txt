@@ -1,4 +1,5 @@
 hola mundo
+Aguante Boca
 matias@matias-Lenovo-G50-30:~$ sudo modprobe -r ideapad-laptop
 [sudo] password for matias: 
 matias@matias-Lenovo-G50-30:~$ sudo rfkill unblock all
@@ -9,4 +10,3 @@ matias@matias-Lenovo-G50-30:~$ rfkill list all
 3: phy0: Wireless LAN
 	Soft blocked: no
 	Hard blocked: no
-matias@matias-Lenovo-G
