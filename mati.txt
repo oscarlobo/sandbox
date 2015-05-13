@@ -5,7 +5,7 @@ matias@matias-Lenovo-G50-30:~$ sudo modprobe -r ideapad-laptop
 matias@matias-Lenovo-G50-30:~$ sudo rfkill unblock all
 matias@matias-Lenovo-G50-30:~$ rfkill list all
 2: hci0: Bluetooth
-	Soft blocked: no
+	Soft blocked: no yeeeeaaa
 	Hard blocked: no
 3: phy0: Wireless LAN
 	Soft blocked: no
