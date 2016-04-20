@@ -10,3 +10,6 @@ matias@matias-Lenovo-G50-30:~$ rfkill list all
 3: phy0: Wireless LAN
 	Soft blocked: no
 	Hard blocked: no
+
+
+ME SACO EL SOMBRERO.
