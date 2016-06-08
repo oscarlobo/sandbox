@@ -2,7 +2,7 @@ var1 = True
 import os
 clear = lambda : os.system('clear')
 clear()% limpio la terminal linux 
-while var1 is True:
+while var1 is True:#Hola
    try:
    	opcion = input("Ingrese una opcion   \n 1) Elegir numero \n 2) Ver lista del 1 al 100 \n 3) Salir \n")
    except:
