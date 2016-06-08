@@ -18,9 +18,9 @@ while var1 is True:
 		print "Buzz \n"
 	    				
 	except:
-	    print "Ingrese solo numeros \n"
-   elif opcion == 2:
-	for n in range(1,101):
+	    print "Ingrese solo numeros \n" 
+   elif opcion == 2: 
+	for n in range(1,101): # en la funcion range que significa rango tenemos un for que recorre los numeros de 1 al 100
 	    if n % 3 == 0 and n % 5 == 0:
 		print "FizzBuzz con %s \n" % (n)
 	    elif n % 3 == 0:
