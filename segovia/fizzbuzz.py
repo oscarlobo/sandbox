@@ -2,7 +2,7 @@ var1 = True
 import os
 clear = lambda : os.system('clear')
 clear()% limpio la terminal linux 
-while var1 is True:#Hola
+while var1 is True:
    try:
    	opcion = input("Ingrese una opcion   \n 1) Elegir numero \n 2) Ver lista del 1 al 100 \n 3) Salir \n")
    except:
@@ -20,7 +20,7 @@ while var1 is True:#Hola
 	except:
 	    print "Ingrese solo numeros \n" 
    elif opcion == 2: 
-	for n in range(1,101): # en la funcion range que significa rango tenemos un for que recorre los numeros de 1 al 100
+	for n in range(1 , 101): # en la funcion range que significa rango tenemos un for que recorre los numeros de 1 al 100
 	    if n % 3 == 0 and n % 5 == 0:
 		print "FizzBuzz con %s \n" % (n)
 	    elif n % 3 == 0:
