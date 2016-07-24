@@ -1,16 +1,13 @@
 var1 = True
-import os
-clear = lambda : os.system('clear')
-clear()% limpio la terminal linux 
 while var1 is True:
    try:
-   	opcion = input("Ingrese una opcion   \n 1) Elegir numero \n 2) Ver lista del 1 al 100 \n 3) Salir \n")
+	opcion = input("Ingrese una opcion   \n 1) Elegir numero \n 2) Ver lista del 1 al 100 \n 3) Salir \n")
    except:
    	print "Ingrese solo numeros... \n"
    if opcion == 1:
 	try:
 	    numero = input("Ingrese un numero : \n")
-	    if numero % 3 == 0 and numero % 5 == 0:
+	    if (numero%3) == 0 and (numero%5) == 0:
 		print " Fizzbuzz \n"
             elif numero % 3 == 0:
 		print " Fizz \n"
